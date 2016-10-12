@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject", "CslaProject\CslaProject.csproj", "{31241754-4DD9-4106-8472-31DF72471CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject.Model", "CslaProject.Model\CslaProject.Model.csproj", "{453606DF-4B50-4FCA-83BB-984BA43E7981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject.DataAccess", "CslaProject.DataAccess\CslaProject.DataAccess.csproj", "{A793DAC6-FB3D-45E0-AE3E-52AFEBF38C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject.DataAccess.Contracts", "CslaProject.DataAccess.Contracts\CslaProject.DataAccess.Contracts.csproj", "{F531F691-609B-41CE-A74C-34A9B9095B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject.DataAccess.OracleDB", "CslaProject.DataAccess.OracleDB\CslaProject.DataAccess.OracleDB.csproj", "{43D46A32-5664-4164-B070-9EB34326D45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject.UnitTests", "CslaProject.UnitTests\CslaProject.UnitTests.csproj", "{5AC50D74-7833-47D4-B67D-0401A8E831DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CslaProject.Model.Old", "CslaProject.Model.Old\CslaProject.Model.Old.csproj", "{41460243-E410-4B71-957A-85B576F823E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31241754-4DD9-4106-8472-31DF72471CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31241754-4DD9-4106-8472-31DF72471CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31241754-4DD9-4106-8472-31DF72471CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31241754-4DD9-4106-8472-31DF72471CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453606DF-4B50-4FCA-83BB-984BA43E7981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453606DF-4B50-4FCA-83BB-984BA43E7981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453606DF-4B50-4FCA-83BB-984BA43E7981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453606DF-4B50-4FCA-83BB-984BA43E7981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A793DAC6-FB3D-45E0-AE3E-52AFEBF38C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A793DAC6-FB3D-45E0-AE3E-52AFEBF38C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A793DAC6-FB3D-45E0-AE3E-52AFEBF38C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A793DAC6-FB3D-45E0-AE3E-52AFEBF38C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F531F691-609B-41CE-A74C-34A9B9095B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F531F691-609B-41CE-A74C-34A9B9095B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F531F691-609B-41CE-A74C-34A9B9095B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F531F691-609B-41CE-A74C-34A9B9095B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D46A32-5664-4164-B070-9EB34326D45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D46A32-5664-4164-B070-9EB34326D45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D46A32-5664-4164-B070-9EB34326D45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D46A32-5664-4164-B070-9EB34326D45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC50D74-7833-47D4-B67D-0401A8E831DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC50D74-7833-47D4-B67D-0401A8E831DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC50D74-7833-47D4-B67D-0401A8E831DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC50D74-7833-47D4-B67D-0401A8E831DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41460243-E410-4B71-957A-85B576F823E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41460243-E410-4B71-957A-85B576F823E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41460243-E410-4B71-957A-85B576F823E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41460243-E410-4B71-957A-85B576F823E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

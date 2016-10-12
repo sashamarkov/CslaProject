@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{453606DF-4B50-4FCA-83BB-984BA43E7981}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CslaProject.Model</RootNamespace>
+    <AssemblyName>CslaProject.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Csla">
+      <HintPath>..\Depencies\Csla.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\Depencies\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\InjectableBusinessListBase.cs" />
+    <Compile Include="Core\InjectableCommandBase.cs" />
+    <Compile Include="Core\InjectableIdentityBase.cs" />
+    <Compile Include="Core\InjectableNameValueListBase.cs" />
+    <Compile Include="Core\InjectableReadOnlyBase.cs" />
+    <Compile Include="Core\InjectableReadOnlyListBase.cs" />
+    <Compile Include="Core\Container.cs" />
+    <Compile Include="ObjectFactoryPattern\Address.cs" />
+    <Compile Include="ObjectFactoryPattern\Order.cs" />
+    <Compile Include="ObjectFactoryPattern\Orders.cs" />
+    <Compile Include="ObjectFactoryPattern\Person.cs" />
+    <Compile Include="RepositoryPattern\Address.cs" />
+    <Compile Include="RepositoryPattern\Address.Server.cs" />
+    <Compile Include="RepositoryPattern\GroupInfo.Server.cs" />
+    <Compile Include="RepositoryPattern\Orders.Server.cs" />
+    <Compile Include="RepositoryPattern\GroupInfo.cs" />
+    <Compile Include="RepositoryPattern\GroupInfos.cs" />
+    <Compile Include="RepositoryPattern\GroupInfos.Server.cs" />
+    <Compile Include="RepositoryPattern\Order.cs" />
+    <Compile Include="RepositoryPattern\Order.Server.cs" />
+    <Compile Include="RepositoryPattern\Orders.cs" />
+    <Compile Include="RepositoryPattern\Person.cs" />
+    <Compile Include="Core\InjectableBusinessBase.cs" />
+    <Compile Include="RepositoryPattern\Person.Server.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CslaProject.DataAccess.Contracts\CslaProject.DataAccess.Contracts.csproj">
+      <Project>{f531f691-609b-41ce-a74c-34a9b9095b23}</Project>
+      <Name>CslaProject.DataAccess.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
